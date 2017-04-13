@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>WIKI</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="wikipedia.css"/>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="wikipedia.js"></script>
+</head>
+<body class="wiki-app bg-color">
+<div class="container">
+    <form action="#" role="form" autocomplete="off" class="search clearfix">
+        <div class="form-group text-center">
+            <a href="http://en.wikipedia.org/wiki/Special:Random" class="random" target="_blank">Click here for a random article</a>
+        </div>
+        <div class="form-group search-area text-center">
+            <span class="btn search-btn glyphicon glyphicon-search"></span>
+            <label><input type="text" class="form-control bg-color hide" id="search-text"/></label>
+            <button class="close hide" type="button"><span aria-hidden="true">&times;</span><span class="sr-only"></span></button>
+        </div>
+        <p class="help-block text-center">Click icon to search</p>
+    </form>
+    <ul class="list-unstyled search-content">
+    </ul>
+</div>
+</body>
+</html>
